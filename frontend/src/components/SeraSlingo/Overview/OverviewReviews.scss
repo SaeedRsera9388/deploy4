@@ -1,0 +1,542 @@
+.planContainer-Reviews {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 50px;
+  width: 100%;
+
+  .Overview-container-c-title {
+    font-family: "Rubik Dirt", system-ui;
+    color: rgb(31, 163, 13);
+    font-size: 4rem;
+    transition: 1s;
+
+    @media (max-width: 1040px) {
+      font-size: 2.5rem;
+    }
+    @media (max-width: 950px) {
+      font-size: 2rem;
+    }
+    @media (max-width: 860px) {
+    }
+    @media (max-width: 760px) {
+      font-size: 1.5rem;
+    }
+    @media (max-width: 560px) {
+      font-size: 1.2rem;
+    }
+    @media (max-width: 460px) {
+      font-size: 1.2rem;
+    }
+    @media (max-width: 360px) {
+      font-size: 1rem;
+    }
+  }
+
+  .Overview-container-c-subTitle {
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #777;
+    margin-bottom: 20px;
+    transition: 1s;
+    @media (max-width: 1040px) {
+      font-size: 1.5rem;
+    }
+    @media (max-width: 950px) {
+      font-size: 1.2rem;
+    }
+    @media (max-width: 860px) {
+      font-size: 1rem;
+    }
+    @media (max-width: 760px) {
+      font-size: 0.7rem;
+    }
+    @media (max-width: 560px) {
+      font-size: 0.7rem;
+    }
+    @media (max-width: 460px) {
+      font-size: 0.6rem;
+    }
+    @media (max-width: 360px) {
+      font-size: 0.5rem;
+    }
+  }
+
+  .Overview-Review-Main-box {
+    width: 100%;
+
+    .Overview-Review-container {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      transition: 0.5s;
+      width: 100%;
+      padding: 20px;
+      margin: 20px 30px;
+      transition: 1s ease-in-out;
+
+
+      .Overview-Review-wrapper {
+        background: linear-gradient(
+          to right top,
+          #fff,
+          #fffffffd,
+          #ecf1ec,
+          #c0e4d3,
+          #aae49bd5,
+          #0ecc7dea
+        );
+        padding: 30px 50px;
+        border-end-end-radius: 1cm;
+        justify-content: center;
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        transition: 1s ease-in-out;
+
+      
+        @media (max-width: 760px) {
+          padding: 10px 40px;
+          gap: 2px;
+          margin: 2px;
+ 
+        }
+        @media (max-width: 560px) {
+          padding: 10px 40px;
+          gap: 2px;
+          margin: 2px;
+ 
+        }
+        @media (max-width: 460px) {
+          padding: 10px 40px;
+          gap: 2px;
+          margin: 2px;
+ 
+        }
+        @media (max-width: 360px) {
+         padding: 10px 40px;
+         gap: 2px;
+         margin: 2px;
+
+        }
+
+        .Overview-Review-wrapper-header-text-titlecount,
+        .overview-review-box-inner-header-textdetail {
+          font-family: "Rubik Dirt", system-ui;
+          transition: 1s ease-in-out;
+
+          @media (max-width: 1040px) {
+          }
+          @media (max-width: 950px) {
+          }
+          @media (max-width: 860px) {
+            font-size: 15px;
+          }
+          @media (max-width: 760px) {
+            font-size: 15px;
+          }
+          @media (max-width: 560px) {
+            font-size: 7px;
+          }
+          @media (max-width: 460px) {
+            font-size: 7px;
+          }
+          @media (max-width: 360px) {
+            font-size: 7px;
+          }
+        }
+        .overview-review-box-inner-detail-header {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          justify-content: space-around;
+          width: 100%;
+          margin: 10px;
+          transition: 1s;
+          @media (max-width: 1040px) {
+          }
+          @media (max-width: 950px) {
+            font-size: 15px;
+          }
+          @media (max-width: 860px) {
+          }
+          @media (max-width: 760px) {
+            font-size: 15px;
+          }
+          @media (max-width: 560px) {
+            width: 100%;
+            display: flex;
+            display: flex;
+            flex-direction: column;
+            font-size: 10px;
+          }
+          @media (max-width: 460px) {
+            width: 100%;
+            display: flex;
+            display: flex;
+            flex-direction: column;
+            font-size: 5px;
+          }
+          @media (max-width: 360px) {
+            width: 100%;
+            display: flex;
+            display: flex;
+            flex-direction: column;
+            font-size: 5px;
+          }
+        }
+      }
+    }
+
+    .Overview-Review-detail-container {
+      padding: 20px;
+      background: linear-gradient(
+        to right top,
+
+        #fff,
+        #eaf8e3,
+        #b0ebb0,
+        #d5e6deea,
+        #eef7e8,
+        #fff
+      );
+      border-end-end-radius: 1cm;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      align-items: center;
+      transition: 1s ease-in-out;
+
+      @media (max-width: 860px) {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+
+      }
+      @media (max-width: 760px) {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+
+      }
+      @media (max-width: 460px) {
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+      }
+
+      .overview-review-detail-container-btn{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        span {
+  font-family: "Rubik Dirt", system-ui;
+color: white;
+}
+&:hover{
+  box-shadow: 0 4px 5px 0 black;
+}
+      }
+
+      .Overview-Review-detail-container-main-box {
+        padding: 20px 50px;
+      justify-content: center;
+      align-items: center;
+      transition: 1s ease-in-out;
+
+      }
+
+      .Overview-Review-detail-container-box {
+        width: 100%;
+        padding: 1px 0px;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        transition: 1s ease-in-out;
+
+
+        .Overview-Review-detailReview {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 20px;
+          background: linear-gradient(to left top, #fff, #d5e9d5, #a9e4cbea);
+          border-end-end-radius: 1cm;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+          width: 100%;
+          transition: 1s ease-in-out;
+
+      
+          @media (max-width: 860px) {
+          border-end-end-radius: 1cm;
+          border-start-start-radius: 1cm;
+          border-start-end-radius:1cm;
+            justify-content: center;
+            align-items: center;
+          }
+          @media (max-width: 760px) {
+          border-end-end-radius: 1cm;
+          border-start-start-radius: 1cm;
+          border-start-end-radius:1cm;
+            justify-content: center;
+            align-items: center;
+          }
+          @media (max-width: 660px) {
+          border-end-end-radius: 1cm;
+          border-start-start-radius: 1cm;
+          border-start-end-radius:1cm;
+            justify-content: center;
+            align-items: center;
+          }
+          @media (max-width: 560px) {
+          border-end-end-radius: 1cm;
+          border-start-start-radius: 1cm;
+          border-start-end-radius:1cm;
+            justify-content: center;
+            align-items: center;
+          }
+          @media (max-width: 460px) {
+          border-end-end-radius: 1cm;
+          border-start-start-radius: 1cm;
+          border-start-end-radius:1cm;
+            justify-content: center;
+            align-items: center;
+          }
+          @media (max-width: 360px) {
+          border-end-end-radius: 1cm;
+          border-start-start-radius: 1cm;
+          border-start-end-radius:1cm;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .Overview-Review-detailReview-date {
+            display: flex;
+            padding: 10px;
+            justify-content: end;
+            align-items: end;
+            text-align: end;
+transition: 1s ease-in-out;
+
+            @media (max-width: 760px) {
+              font-size: 10px;
+            }
+            @media (max-width: 660px) {
+              font-size: 5px;
+            }
+            @media (max-width: 560px) {
+              font-size: 5px;
+            }
+            @media (max-width: 460px) {
+              font-size: 5px;
+            }
+          }
+
+          .Overview-Review-detailReview-box {
+            display: flex;
+            gap: 40px;
+            padding: 10px;
+            transition: 1s ease-in-out;
+
+            @media (max-width: 860px) {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 2px;
+
+            }
+            @media (max-width: 760px) {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 2px;
+
+            }
+            @media (max-width: 560px) {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 2px;
+            }
+            @media (max-width: 460px) {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 2px;
+            }
+
+            .Overview-Review-detailReview-header {
+              gap: 20px;
+              display: flex;
+              flex-direction: column;
+              transition: 1s ease-in-out;
+
+              @media (max-width: 860px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+  
+              }
+              @media (max-width: 760px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+  
+              }
+              @media (max-width: 560px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+              }
+              @media (max-width: 460px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+              }
+            }
+
+            .Overview-Review-detailReview-details {
+              gap: 0px;
+              display: flex;
+              flex-direction: column;
+              transition: 1s ease-in-out;
+              @media (max-width: 860px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+  
+              }
+              @media (max-width: 760px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+  
+              }
+              @media (max-width: 560px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+              }
+              @media (max-width: 460px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+              }
+            }
+          }
+        }
+
+        .Overview-Review-detailReview img {
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          width: 100px;
+          height: 80px;
+          border-radius: 10px;
+          margin-right: 15px;
+
+          @media (max-width: 860px) {
+            width: 100px;
+            height: 70px;
+          }
+          @media (max-width: 760px) {
+            width: 80px;
+            height: 60px;
+          }
+          @media (max-width: 460px) {
+            width: 70px;
+            height: 50px;
+          }
+        }
+
+        .Overview-Review-detailReview-Name {
+          font-family: "Protest Guerrilla", sans-serif;
+          font-size: 30px;
+          color: rgb(130, 131, 130);
+
+          @media (max-width: 860px) {
+            font-size: 1em;
+          }
+          @media (max-width: 760px) {
+            font-size: 0.7em;
+          }
+          @media (max-width: 460px) {
+            font-size: 0.7em;
+          }
+        }
+
+        .flexratesReviewContainer {
+          @media (max-width: 760px) {
+            display: flex;
+            flex-direction: column;
+          }
+          @media (max-width: 460px) {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+        .Overview-Review-detailReview-subject {
+          padding: 10px;
+          font-family: "Protest Guerrilla", sans-serif;
+          color: rgb(130, 131, 130);
+          transition: 1s ease-out;
+          @media (max-width: 860px) {
+            font-size: 12px;
+          }
+          @media (max-width: 760px) {
+            font-size: 12px;
+          }
+          @media (max-width: 460px) {
+            font-size: 10px;
+          }
+        }
+
+        .Overview-Review-detailReview-text {
+          padding: 10px;
+          font-size: 20px;
+          color: #777;
+          font-weight: 500;
+          display: flex;
+          justify-content: start;
+          text-align: start;
+          transition: 1s ease-in-out;
+
+          @media (max-width: 860px) {
+            font-size: 7px;
+          }
+          @media (max-width: 760px) {
+            font-size: 5px;
+          }
+          @media (max-width: 460px) {
+            font-size: 5px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+
+
+.header {
+  padding: 1rem; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #F2F2F2;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  transition: 0.5s ease-in-out;
+}
+
+.header-left {
+  .toggle-header {
+    margin-right: 16px;
+    &.menubar, &.closebar {
+      font-size: 20px;
+    }
+  }
+}
+
+.SeraLogo {
+  a {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #25d366;
+
+    @media (max-width: 1360px) {
+        
+        }
+        @media (max-width: 1060px) {
+          
+        }
+        @media (max-width: 960px) {
+          
+        }
+        @media (max-width: 860px) {
+                       font-size: 2rem;
+
+        }
+        @media (max-width: 760px) {
+                       font-size: 1.5rem;
+
+        }
+        @media (max-width: 460px) {
+             font-size: 1rem;
+
+        }
+
+  }
+}
+
+.header-right {
+  .right-side {
+    display: flex;
+    align-items: center;
+    color: gray;
+
+    .profile-image {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+
+    .hAuth {
+      width: 100%;
+      max-width: 1024px;
+      font-size: 1.2rem;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .authButton {
+        margin-left: 20px;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: #003580;
+        text-decoration: none; // Remove underline
+      }
+    }
+  }
+}
+
+.hIcons {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.hDropdownHeader {
+  color: gray;
+  font-size: 1.2rem;
+}

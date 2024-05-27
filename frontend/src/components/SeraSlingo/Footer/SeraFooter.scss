@@ -1,0 +1,285 @@
+.SeraSLingo-Footer-container {
+  position: absolute;
+  width: 100%;
+
+  .SeraSLingo-Footer-wrapper-top {
+    background-color: #f7f7f7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+
+    .SeraSLingo-Footer-wrapper-top-topContainer {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+      justify-content: space-around;
+      width: 100%;
+      a {
+        color: #777;
+        text-decoration: none;
+        font-size: 1rem;
+      }
+    }
+
+    .SeraSLingo-Footer-wrapper-top-MiddleContainer {
+      display: flex;
+      gap: 20px;
+      padding: 25px;
+      justify-content: center;
+      justify-content: space-around;
+      width: 100%;
+      span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #c4a674;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+
+        img {
+          width: 150px;
+          height: 150px;
+          border-radius: 1cm;
+        }
+        ul,
+        li {
+          text-decoration: none;
+        }
+      }
+      .SeraSLingo-Footer-wrapper-top-MiddleContainer-Countup {
+        justify-content: center;
+        align-items: center;
+       font-size: 10px;
+        text-align: center;
+        .SeraSLingo-Footer-wrapper-top-MiddleContainer-Countup-number{
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  .SeraSLingo-Footer-wrapper-top-MiddleContainer-logo p {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #25d366;
+  }
+
+  .SeraSLingo-Footer-wrapper-bottom {
+    background-color: #c4a674;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .social-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+
+    @media (max-width: 960px) {
+justify-content: center;
+align-items: center;
+        }
+      @media (max-width: 860px) {
+justify-content: center;
+align-items: center;
+        }
+      @media (max-width: 760px) {
+justify-content: center;
+align-items: center;
+        }
+      @media (max-width: 660px) {
+justify-content: center;
+align-items: center;
+        }
+      @media (max-width: 660px) {
+justify-content: center;
+align-items: center;
+        }
+      @media (max-width: 560px) {
+justify-content: center;
+align-items: center;
+        }
+      @media (max-width: 460px) {
+justify-content: center;
+align-items: center;
+        }
+  
+
+    .title-icons {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .top-icon {
+      display: flex;
+      gap: 20px;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #c4a674;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        transition: transform 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        overflow: hidden;
+
+        .socialmedia-seraslingofooter {
+          color: white;
+          width: 30px;
+          height: 30px;
+        }
+
+        &:hover {
+          transform: translateY(-5px);
+        }
+
+        svg {
+          color: #a7abab;
+          transition: color 0.3s ease-in-out;
+        }
+      }
+
+      a:hover svg {
+        color: inherit; // Keep original color on hover
+      }
+
+      a.facebook:hover svg {
+        color: #3b5998;
+      }
+
+      a.instagram:hover svg {
+        color: #e4405f;
+      }
+
+      a.linkedin:hover svg {
+        color: #0077b5;
+      }
+
+      a.tiktok:hover svg {
+        color: #69c9d0;
+      }
+
+      a.telegram:hover svg {
+        color: #0088cc;
+      }
+
+      a.wechat:hover svg {
+        color: #7bb32e;
+      }
+
+      a.whatsapp:hover svg {
+        color: #25d366;
+      }
+
+      a.youtube:hover svg {
+        color: #ff0000;
+      }
+      a.Tiktok:hover svg {
+        color: #222;
+      }
+      a.Threads:hover svg {
+        color: #000000;
+      }
+      a.Twitter:hover svg {
+        color: #1da1f2;
+      }
+    }
+  }
+}
+
+.SeraSLingo-Footer-wrapper-Bottom-Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  a {
+    font-family: "Fuggles", cursive;
+    color: #6fe242;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 20px;
+    
+    @media (max-width: 960px) {
+      font-size: 1.5rem;
+
+    }
+    @media (max-width: 860px) {
+      font-size: 1rem;
+      padding: 10px;
+ 
+    }
+    @media (max-width: 760px) {
+      font-size: 0.9rem;
+      padding: 05px;
+
+    }
+    @media (max-width: 460px) {
+      font-size: 0.9rem;
+      padding: 05px;
+  
+    }
+  }
+}
+
+.SeraSLingo-Footer-wrapper-Bottom-Container-left {
+}
+
+.SeraSLingo-Footer-wrapper-Bottom-Container-right {
+  color: #25d366;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 860px) {
+
+  .SeraSLingo-Footer-wrapper-top-topContainer {
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center links horizontally */
+    width: 50%; /* Limit width to 50% */
+    padding: 20px; /* Add padding for spacing */
+  }
+
+  .SeraSLingo-Footer-wrapper-top-topContainer a {
+    display: block; /* Ensure each link takes full width */
+    text-align: center; /* Center text within each link */
+    margin-bottom: 10px; /* Add some space between links */
+  }
+
+
+
+  .SeraSLingo-Footer-wrapper-top-MiddleContainer {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-icon {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+

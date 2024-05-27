@@ -1,0 +1,61 @@
+
+/* Newsletter.scss */
+
+.newsletter-container {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%; // Set width to 100% to span the entire screen width
+  background-color: #0f3ad7;  color: #fff;
+  padding: 100px 0 30px;
+  padding: 20px;
+  
+  font-size: 13px;
+  line-height: 20px;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      width: 100%; /* Make the input span the entire width of the container */
+    }
+
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}

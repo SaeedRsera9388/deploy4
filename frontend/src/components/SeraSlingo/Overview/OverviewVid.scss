@@ -1,0 +1,199 @@
+.overview-container-v {
+  text-align: center;
+}
+
+.overview-totalCount {
+  margin-bottom: 20px;
+}
+
+.overview-container-v-title {
+  font-family: "Rubik Dirt", system-ui;
+  color: rgb(163, 13, 100);
+  font-size: 4rem;
+  transition: 1s;
+
+  @media (max-width: 1040px) {
+    font-size: 4rem;
+
+  }
+  @media (max-width: 950px) {
+    font-size: 2rem;
+
+  }
+  @media (max-width: 860px) {
+    font-size: 1.7rem;
+
+  }@media (max-width: 760px) {
+    font-size: 1.5rem;
+
+  }
+  @media (max-width: 560px) {
+    font-size: 1.2rem;
+
+  }
+  @media (max-width: 460px) {
+    font-size: 1rem;
+
+  }
+}
+
+.overview-container-v-subTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #777;
+
+  @media (max-width: 1040px) {
+    font-size: 1.5rem;
+
+  }
+  @media (max-width: 950px) {
+    font-size: 1rem;
+
+  }
+  @media (max-width: 860px) {
+    font-size: 1rem;
+
+  }@media (max-width: 760px) {
+    font-size: 0.7rem;
+
+  }
+  @media (max-width: 560px) {
+    font-size: 0.7rem;
+  
+  }
+  @media (max-width: 460px) {
+    font-size: 0.5rem;
+
+  }
+}
+
+.overview-wrapper-v {
+  width: 100%;
+}
+
+.overview-container-v {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overview-review-container-v {
+  justify-content: space-between;
+}
+
+.overview-videos-v {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-item-v {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.video-item-v:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.video-details-video {
+  flex: 1;
+}
+
+.video-iframe {
+  width: 550px;
+  height: 350px;
+  border-radius: 10px;
+  transition: 1s;
+
+  @media (max-width: 1240px) {
+    width: 350px;
+    height: 200px;
+  }
+  @media (max-width: 1140px) {
+    width: 250px;
+    height: 190px;
+  }
+  @media (max-width: 1040px) {
+    width: 150px;
+    height: 120px;
+  }
+  @media (max-width: 950px) {
+    width: 150px;
+    height: 120px;
+
+  }
+  @media (max-width: 860px) {
+    width: 150px;
+    height: 120px;
+
+  }
+  @media (max-width: 760px) {
+    width: 100px;
+    height: 70px;
+
+  }
+  @media (max-width: 560px) {
+    width: 100px;
+    height: 70px;
+
+  }
+  @media (max-width: 460px) {
+    width: 60px;
+    height: 50px;
+  }
+}
+
+.video-details-v {
+  padding: 0 20px;
+  text-align: left;
+}
+
+.video-details-v p {
+  margin: 5px 0;
+}
+
+.video-details-v .video-details-v-subject {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+.video-details-v .video-details-v-text {
+  font-family: "Protest Guerrilla", sans-serif;
+  color: #777;
+}
+
+.video-modal {
+  .modal-video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .modal-video-iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .control-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
+

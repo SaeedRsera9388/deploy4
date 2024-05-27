@@ -1,0 +1,43 @@
+.chooseYourPlan-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background: linear-gradient(
+    to top right,
+    #fff,
+    #fffffffd,
+    #b9ecb7,
+    #a0b9ac,
+    #ffffffab,
+    #fff
+  );
+
+  .chooseYourPlan-Title {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center; /* Add this line to center the text */
+
+    &:not(:first-child) {
+      margin-top: 20px; /* Add some top margin to separate titles */
+      text-decoration: none;
+    }
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #090f03b0;
+
+    @media (max-width: 960px) {
+      font-size: 1.5rem;
+    }
+    @media (max-width: 860px) {
+      font-size: 1.3rem;
+    }
+    @media (max-width: 760px) {
+      font-size: 1rem;
+    }
+    @media (max-width: 460px) {
+      font-size: 0.5rem;
+    }
+  }
+}

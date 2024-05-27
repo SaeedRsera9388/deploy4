@@ -1,0 +1,175 @@
+.overview-container-p {
+  text-align: center;
+}
+
+.overview-totalCount {
+  margin-bottom: 20px;
+}
+
+.overview-container-p-title {
+  font-family: "Rubik Dirt", system-ui;
+  color: rgb(163, 13, 100);
+  font-size: 4rem;
+  transition: 1s;
+
+  @media (max-width: 1040px) {
+    font-size: 4rem;
+  }
+
+  @media (max-width: 950px) {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 860px) {
+    font-size: 1.7rem;
+  }
+
+  @media (max-width: 760px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 460px) {
+    font-size: 1rem;
+  }
+}
+
+.overview-container-p-subTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #777;
+
+  @media (max-width: 1040px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 950px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 860px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 760px) {
+    font-size: 0.7rem;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 0.7rem;
+  }
+
+  @media (max-width: 460px) {
+    font-size: 0.5rem;
+  }
+}
+
+.overview-wrapper-p {
+  width: 100%;
+}
+
+.overview-container-p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overview-review-container-p {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.overview-photos-p {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the width of the grid items as needed */
+  gap: 20px; /* Adjust the gap between grid items */
+}
+
+.photo-item-p {
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+
+  img {
+    width: 300px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    border-radius: 10px;
+    transition: 1s;
+
+    @media (max-width: 760px) {
+      width: 150px;
+      height: 100px;
+    }
+
+    @media (max-width: 560px) {
+      width: 120px;
+      height: 80px;
+    }
+  }
+}
+
+.photo-details-photo {
+  flex: 1;
+}
+
+.photo-details-p {
+  padding: 0 20px;
+  text-align: left;
+
+  p {
+    margin: 5px 0;
+  }
+
+  .photo-details-p-subject {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+
+  .photo-details-p-text {
+    font-family: "Protest Guerrilla", sans-serif;
+    color: #777;
+    font-size: 10px;
+    width: 100%;
+  }
+}
+
+.pagination-container {
+  margin-top: 20px;
+
+  .ant-pagination {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.image-modal {
+  .modal-image-container {
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .modal-controls {
+    display: flex;
+    justify-content: flex-end;
+
+    .control-icon {
+      cursor: pointer;
+      font-size: 18px;
+    }
+  }
+}

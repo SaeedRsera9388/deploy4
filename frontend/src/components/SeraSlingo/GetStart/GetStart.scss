@@ -1,0 +1,379 @@
+// GetStart.scss
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$background-color: #f2f2f2;
+$padding: 20px;
+
+.GetStart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $background-color;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: 1s ease-in-out;
+
+    h1 {
+      margin-top: 50px;
+      font-family: "Rubik Dirt", system-ui;
+      font-size: 36px;
+      color: #3498db;
+      margin-bottom: 10px;
+
+      @media (max-width: 760px) {
+        font-size: 1.5rem;
+      }
+      @media (max-width: 560px) {
+        font-size: 1.2rem;
+      }
+      @media (max-width: 460px) {
+        font-size: 1rem;
+      }
+      @media (max-width: 360px) {
+        font-size: 1rem;
+      }
+    }
+
+    p {
+      font-family: "Rubik Dirt", system-ui;
+      text-align: center;
+      color: #777;
+
+      @media (max-width: 860px) {
+        font-size: 15px;
+      }
+      @media (max-width: 760px) {
+        font-size: 12px;
+      }
+      @media (max-width: 560px) {
+        font-size: 10px;
+      }
+      @media (max-width: 460px) {
+        font-size: 7px;
+      }
+      @media (max-width: 360px) {
+        font-size: 7px;
+      }
+    }
+
+    .select-anim {
+      height: 250px; /* Adjust the height of the animation as needed */
+      /* Add any specific styles for the animation container */
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 50px; /* Adjust the maximum width as needed */
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    @media (max-width: 1060px) {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      overflow: hidden;
+    }
+    @media (max-width: 960px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      overflow: hidden;
+    }
+    @media (max-width: 860px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      overflow: hidden;
+    }
+    @media (max-width: 760px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      overflow: hidden;
+    }
+    @media (max-width: 460px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      overflow: hidden;
+    }
+
+    .left-selection {
+      margin-right: auto;
+      justify-content: space-between;
+    }
+    .question-container {
+      margin-bottom: 20px;
+
+      h3 {
+        color: $primary-color;
+        font-size: 18px;
+        margin-bottom: 10px;
+        transition: 1s ease-in-out;
+        @media (max-width: 860px) {
+          font-size: 10px;
+        }
+        @media (max-width: 760px) {
+          font-size: 10px;
+        }
+        @media (max-width: 560px) {
+          font-size: 10px;
+        }
+        @media (max-width: 460px) {
+          font-size: 10px;
+        }
+        @media (max-width: 360px) {
+          font-size: 10px;
+        }
+      }
+
+      .ant-btn {
+        background-color: $secondary-color;
+        border-color: $secondary-color;
+        color: white;
+        
+        @media (max-width: 760px) {
+          font-size: 15px;
+
+        }
+        @media (max-width: 560px) {
+          font-size: 10px;
+
+        }
+        @media (max-width: 460px) {
+          font-size: 10px;
+
+        }
+      @media (max-width: 360px) {
+          font-size: 10px;
+        }
+
+        &:hover {
+          background-color: darken($secondary-color, 10%);
+          border-color: darken($secondary-color, 10%);
+        }
+      }
+    }
+
+    .right-selections {
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      .overview-container {
+        flex: 1;
+        h2 {
+          font-family: "Rubik Dirt", system-ui;
+          color: $primary-color;
+          margin-bottom: 15px;
+          font-size: 24px;
+          transition: 1s ease-in-out;
+
+          @media (max-width: 760px) {
+            font-size: 20px;
+            text-align: center;
+          }
+          @media (max-width: 560px) {
+            font-size: 15px;
+            text-align: center;
+          }
+          @media (max-width: 460px) {
+            font-size: 15px;
+            text-align: center;
+          }
+          @media (max-width: 360px) {
+            font-size: 15px;
+            text-align: center;
+          }
+        }
+
+        .badge {
+          background-color: $secondary-color;
+          border-radius: 50%;
+          padding: 5px;
+          position: relative;
+          display: inline-block;
+
+          .badge-count {
+            color: rgb(242, 117, 15);
+            font-size: 14px;
+            position: absolute;
+            top: -8px;
+            left: 10px;
+          }
+        }
+
+        .ant-table {
+          margin-top: 20px;
+
+          th,
+          td {
+            font-size: 10px;
+
+            @media (max-width: 560px) {
+              font-size: 7px;
+            }
+            @media (max-width: 460px) {
+              font-size: 7px;
+            }
+            @media (max-width: 360px) {
+              font-size: 7px;
+            }
+          }
+
+          .ant-btn {
+            background-color: $secondary-color;
+            border-color: $secondary-color;
+            color: white;
+            transition: 1s ease-in-out;
+            @media (max-width: 560px) {
+              font-size: 7px;
+            }
+            @media (max-width: 460px) {
+              font-size: 7px;
+            }
+            @media (max-width: 360px) {
+              font-size: 7px;
+            }
+
+            &:hover {
+              background-color: darken($secondary-color, 10%);
+              border-color: darken($secondary-color, 10%);
+            }
+          }
+        }
+      }
+      /* Styles for the overview container (right top) */
+      /* ... (your existing styles) */
+    }
+
+    .selection-descriptions {
+      width: 100%;
+      max-width: 1200px;
+      border: 1px solid $primary-color;
+      border-radius: 5px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 50px;
+
+      @media (max-width: 950px) {
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        border-radius: 5px;
+      }
+      @media (max-width: 860px) {
+        text-align: center;
+        width: 100%;
+        border-radius: 5px;
+      }
+      @media (max-width: 760px) {
+        padding: 20px;
+        text-align: center;
+        width: 90%;
+        border-radius: 5px;
+      }
+      @media (max-width: 560px) {
+        padding: 20px;
+        text-align: center;
+        width: 90%;
+        border-radius: 5px;
+      }
+      @media (max-width: 460px) {
+        padding: 20px;
+        text-align: center;
+        width: 90%;
+        border-radius: 5px;
+      }
+      @media (max-width: 360px) {
+        padding: 20px;
+        text-align: center;
+        width: 90%;
+        border-radius: 5px;
+      }
+
+      h2 {
+        color: $primary-color;
+        margin-bottom: 15px;
+        font-size: 24px;
+        @media (max-width: 860px) {
+          font-size: 20px;
+        }
+        @media (max-width: 760px) {
+          font-size: 15px;
+        }
+        @media (max-width: 560px) {
+          font-size: 15px;
+        }
+        @media (max-width: 460px) {
+          font-size: 15px;
+        }
+        @media (max-width: 360px) {
+          font-size: 15px;
+        }
+      }
+
+      p {
+        margin: 0;
+        background-color: rgb(207, 202, 202);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        @media (max-width: 760px) {
+          font-size: 15px;
+        }
+        @media (max-width: 560px) {
+          font-size: 10px;
+        }
+        @media (max-width: 460px) {
+          font-size: 7px;
+        }
+        @media (max-width: 360px) {
+          font-size: 5px;
+        }
+      }
+    }
+  }
+}
+
+.questions-container {
+  h2 {
+    font-family: "Rubik Dirt", system-ui;
+    @media (max-width: 760px) {
+      font-size: 25px;
+    }
+    @media (max-width: 560px) {
+      font-size: 20px;
+    }
+    @media (max-width: 460px) {
+      font-size: 17px;
+    }
+    @media (max-width: 360px) {
+      font-size: 15px;
+    }
+  }
+}
